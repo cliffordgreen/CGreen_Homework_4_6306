@@ -35,7 +35,7 @@ Define initial variables
     abline(v=mean(R1_mean), col= "blue",lwd=2)#mean of sample means compared to normal sample mean
     abline(v=500, col= "green",lwd=2, lty=3)#calculated mean from oroginal sample
 
-![](CGreen_Homework_4_6306_files/figure-markdown_strict/unnamed-chunk-3-1.png)<!-- -->
+![](https://github.com/cliffordgreen/CGreen_Homework_4_6306/blob/master/CGreen_Homework_4_6306_files/figure-markdown_strict/unnamed-chunk-3-1.png)<!-- -->
 
 #### Figure 1:
 
@@ -72,7 +72,7 @@ Bootstap a data set with a larger sample size:
     abline(v=mean(R2_mean), col= "blue",lwd=2)#shows mean of the sample dataset 
     abline(v=1000, col= "green",lwd=2, lty=3)#shows estimated mean
 
-![](CGreen_Homework_4_6306_files/figure-markdown_strict/unnamed-chunk-6-1.png)<!-- -->
+![](https://github.com/cliffordgreen/CGreen_Homework_4_6306/blob/master/CGreen_Homework_4_6306_files/figure-markdown_strict/unnamed-chunk-6-1.png)<!-- -->
 
 #### Figure 2:
 
@@ -85,7 +85,7 @@ Bootstap a data set with a larger sample size:
 
     boxplot(R2_mean)#made a boxplot for the sample data
 
-![](CGreen_Homework_4_6306_files/figure-markdown_strict/unnamed-chunk-7-1.png)<!-- -->
+![](https://github.com/cliffordgreen/CGreen_Homework_4_6306/blob/master/CGreen_Homework_4_6306_files/figure-markdown_strict/unnamed-chunk-7-1.png)<!-- -->
 
 #### Figure 3:
 
@@ -121,7 +121,7 @@ distribution
 
     hist(R3_mean, main = "Smaller Sample Size Exponential Distribution")
 
-![](CGreen_Homework_4_6306_files/figure-markdown_strict/unnamed-chunk-10-1.png)<!-- -->
+![](https://github.com/cliffordgreen/CGreen_Homework_4_6306/blob/master/CGreen_Homework_4_6306_files/figure-markdown_strict/unnamed-chunk-10-1.png)<!-- -->
 
 #### Figure 4:
 
@@ -142,7 +142,7 @@ distribution
 
     hist(R4_mean, main = "Larger Sample Size Exponential Distribution")
 
-![](CGreen_Homework_4_6306_files/figure-markdown_strict/unnamed-chunk-12-1.png)<!-- -->
+![](https://github.com/cliffordgreen/CGreen_Homework_4_6306/blob/master/CGreen_Homework_4_6306_files/figure-markdown_strict/unnamed-chunk-12-1.png)<!-- -->
 
 #### Figure 5:
 
@@ -154,7 +154,7 @@ distribution
 
     boxplot(R4_mean)#made a boxplot for the sample data
 
-![](CGreen_Homework_4_6306_files/figure-markdown_strict/unnamed-chunk-13-1.png)<!-- -->
+![](https://github.com/cliffordgreen/CGreen_Homework_4_6306/blob/master/CGreen_Homework_4_6306_files/figure-markdown_strict/unnamed-chunk-13-1.png)<!-- -->
 
 #### Figure 6:
 
