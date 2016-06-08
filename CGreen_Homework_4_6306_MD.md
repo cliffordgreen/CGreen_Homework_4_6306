@@ -22,7 +22,7 @@ Define initial variables
     R1m <- mean(Firstnormal) #mean of normal sample
 
     for(i in 1:1000 ){ #bootstrapping for loop to sample means 100 times
-    sample1 <- sample(Firstnormal, 1:100, replace = FALSE)
+    sample1 <- sample(Firstnormal, 1:100, replace = TRUE)
     R1_mean[i] <- mean(sample1)}# appending them to the empty vector
 
     hist(R1_mean, main = "Smaller Sample Size normal dist")#histogram of data
@@ -59,7 +59,7 @@ distribution.
 Bootstap a data set with a larger sample size:
 
     for(i in 1:10000 ){
-    sample1 <- sample(Secondnormal, 1:1000, replace = FALSE)
+    sample1 <- sample(Secondnormal, 1:1000, replace = TRUE)
     R2_mean[i] <- mean(sample1)}#for loop that bootstraps the data so we can apply the sample mean function multiple times
 
     hist(R2_mean, main = "Larger Sample Size Normal Distribution")
@@ -111,7 +111,7 @@ rnorm we are using rexp, which creates a sample from an exponential
 distribution
 
     for(i in 1:20 ){
-    sample1 <- sample(First_Exp,1:20, replace = FALSE)
+    sample1 <- sample(First_Exp,1:20, replace = TRUE)
     R3_mean[i] <- mean(sample1)}
 
     summary(R3_mean)
@@ -132,7 +132,7 @@ distribution
 <!-- -->
 
     for(i in 1:1000 ){
-    sample1 <- sample(Second_Exp,1:1000, replace = FALSE)
+    sample1 <- sample(Second_Exp,1:1000, replace = TRUE)
     R4_mean[i] <- mean(sample1)}
 
     summary(R4_mean)
